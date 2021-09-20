@@ -84,8 +84,8 @@ return creationTime + 4*T;
     address from,
     address to,
     uint256 amount
- // ) internal virtual override depositPeriod(to) lockPeriod(to){
-  ) internal virtual override {
+  ) internal virtual override depositPeriod(to) lockPeriod(to){
+ // ) internal virtual override {
 
     if ( totalDeposit != 0 ){
       reward = 0;
