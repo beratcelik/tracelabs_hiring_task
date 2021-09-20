@@ -13,11 +13,15 @@ With our smart contract created and setup done, now's the fun part.
 Let's deploy! We will first use Truffle to compile and deploy the token 
 contract to a locally running ethereum network.
 
-``truffle compile``
-``truffle deploy``
+start a Ganache from terminal with the secret key
+
+`ganache-cli -m "opera uncle resist garage appear very when settle please front local lawn"`
+
+Open a new tab and run
+
 ``truffle test``
 
-
+You will see test cases running and 12 passing test.
 
 ###Deploy Token Contract on Rinkeby
 Get Tokens from Public Faucet
